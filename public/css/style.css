@@ -149,7 +149,7 @@ object-fit: cover;
 }
 
 /* Filter item styles */
-/* #filters {
+#filters {
     display: flex;
   
    padding: 1rem 1.5rem 0.5rem 1.5rem;
@@ -157,8 +157,8 @@ object-fit: cover;
     gap: 2rem;
     align-items: center;
    
-  } */
-#filters {
+  }
+/* #filters {
     display: flex;
     gap: 2rem;
     align-items: center;
@@ -166,7 +166,7 @@ object-fit: cover;
     white-space: nowrap;
     padding: 1rem;
     -webkit-overflow-scrolling: touch;
-}
+} */
 
 #filters::-webkit-scrollbar {
     display: none;
