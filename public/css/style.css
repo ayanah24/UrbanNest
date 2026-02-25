@@ -149,7 +149,7 @@ object-fit: cover;
 }
 
 /* Filter item styles */
-#filters {
+/* #filters {
     display: flex;
   
    padding: 1rem 1.5rem 0.5rem 1.5rem;
@@ -157,7 +157,20 @@ object-fit: cover;
     gap: 2rem;
     align-items: center;
    
-  }
+  } */
+#filters {
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 1rem;
+    -webkit-overflow-scrolling: touch;
+}
+
+#filters::-webkit-scrollbar {
+    display: none;
+}
 
 /* Filter item styles */
 .filters {
@@ -211,6 +224,7 @@ object-fit: cover;
         overflow-x: visible;
     }
 } 
+
 
 /* Sign-up styling */
 .signup-container {
@@ -408,6 +422,9 @@ object-fit: cover;
     .form-heading {
         font-size: 1.5rem;
     }
+    .card-img-top {
+        height: 11rem;
+    }
 }
 /* Image Modal Styles */ 
 
@@ -457,5 +474,12 @@ object-fit: cover;
   .search-button:hover {
     background-color: #e31c5f;
   }
-
+@media (max-width: 576px) {
+    .tax-toggle {
+        margin-left: 0.5rem;
+        padding: 0.5rem;
+        height: auto;
+        font-size: 12px;
+    }
+}
 
